@@ -3,7 +3,6 @@ import Section from './Section';
 import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Notification from './Notification';
-import Test from "./Test"
 import { useButtonState } from './useButtonState';
 
 export default function App() {
@@ -12,7 +11,6 @@ export default function App() {
 
   return (
     <>
-    <Test someProp/>
       <Section title="Please leave feedback">
         <FeedbackOptions
           title="Please leave feedback"
